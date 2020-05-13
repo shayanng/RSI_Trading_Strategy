@@ -24,7 +24,7 @@ API_path = "C:\\Users\\naghi\\API keys\\Oanda_API.txt"
 client = oandapyV20.API(access_token=open(API_path, "r").read(),
                         environment="practice")
 
-account_id = "101-002-8118126-009"
+account_id = "your account number"
 
 ########################### Data Generation ##############################
 
